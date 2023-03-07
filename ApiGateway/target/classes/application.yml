@@ -1,0 +1,24 @@
+
+
+server:
+  port: 8089
+  
+
+
+spring:    
+   cloud:
+    gateway:
+      routes:
+      - id: EMPLOYEESERVICE
+        uri:
+          http://localhost:8082/
+        predicates:
+        - Path=/api/v1/employee/**
+        
+      - id: ADMINSERVICE
+        uri:
+          http://localhost:8081/
+        predicates:
+        - Path=/admin/**
+
+

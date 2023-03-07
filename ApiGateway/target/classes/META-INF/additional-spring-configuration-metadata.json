@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "server.cloud.gateway.routes",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cloud.gateway.routes'"
+  },
+  {
+    "name": "server.cloud.gateway.routes",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cloud.gateway.routes'"
+  }
+]}
